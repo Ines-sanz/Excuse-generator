@@ -1,1 +1,32 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+.center {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  align-content: center;
+  height: 50vw;
+}
+#omg {
+  font-family: "Bungee Tint", sans-serif;
+  font-weight: 400;
+  font-size: 11vw;
+  margin-bottom: -7%;
+  color: rgba(255, 255, 255, 0.7);
+  z-index: -1;
+}
+#omg:hover {
+  font-size: 13vw;
+  color: white;
+}
+h1 {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 5vw;
+}
+#excuse {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 2.2vw;
+}
