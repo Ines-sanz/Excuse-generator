@@ -25,7 +25,7 @@ window.onload = function() {
     "during the zombie apocalypse"
   ];
 
-  const getRandom = arra => Math.floor(Math.random() * arra.lenth);
+  const getRandom = arra => Math.floor(Math.random() * arra.length);
   const getValue = arra => arra[getRandom(arra)];
 
   document.querySelector("#excuse").innerHTML = `${getValue(who)} ${getValue(
